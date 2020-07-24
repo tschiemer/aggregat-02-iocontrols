@@ -2314,16 +2314,14 @@ SW_CFG_4
 $Comp
 L power:GNDREF #PWR0142
 U 1 1 5F86F99F
-P 7150 5750
-F 0 "#PWR0142" H 7150 5500 50  0001 C CNN
-F 1 "GNDREF" H 7155 5577 50  0000 C CNN
-F 2 "" H 7150 5750 50  0001 C CNN
-F 3 "" H 7150 5750 50  0001 C CNN
-	1    7150 5750
+P 7200 5450
+F 0 "#PWR0142" H 7200 5200 50  0001 C CNN
+F 1 "GNDREF" H 7205 5277 50  0000 C CNN
+F 2 "" H 7200 5450 50  0001 C CNN
+F 3 "" H 7200 5450 50  0001 C CNN
+	1    7200 5450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6550 5750 7150 5750
 Wire Wire Line
 	4800 6050 5500 6050
 Text GLabel 6550 4950 2    50   Input ~ 0
@@ -2346,11 +2344,11 @@ Text GLabel 6550 5950 2    50   Input ~ 0
 LED12
 Text GLabel 6550 5850 2    50   Input ~ 0
 LED11
-Text GLabel 6550 5350 2    50   Input ~ 0
-SW_CENTER
-Text GLabel 6550 5450 2    50   Input ~ 0
-SW_PLUS1
 Text GLabel 6550 5550 2    50   Input ~ 0
+SW_CENTER
+Text GLabel 6550 5650 2    50   Input ~ 0
+SW_PLUS1
+Text GLabel 6550 5750 2    50   Input ~ 0
 SW_PLUS2
 $Comp
 L Connector_Generic:Conn_01x02 J17
@@ -2435,4 +2433,7 @@ F 3 "~" H 8350 6000 50  0001 C CNN
 $EndComp
 Text GLabel 8150 6000 0    50   Input ~ 0
 SW_NRST
+Wire Wire Line
+	6550 5450 7200 5450
+NoConn ~ 6550 5350
 $EndSCHEMATC
