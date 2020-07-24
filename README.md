@@ -4,9 +4,13 @@ https://gitlab.zhdk.ch/aggregat-02/a01-pcb-iocontrols
 
 Part of https://gitlab.zhdk.ch/aggregat-02
 
-## PCB Prototype
+## Revisions
 
+### v1.1
 
+- fixed not connected 3V3 between DIP switches
+- fixed not connected button to GPIO line
+- **BREAKING CHANGE** corrected CN3 connector pin assignment to fit with NUCLEO out connector (also see schematics)
 
 ## Bill of Materials
 
