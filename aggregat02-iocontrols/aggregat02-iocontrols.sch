@@ -1556,17 +1556,6 @@ $EndComp
 Wire Wire Line
 	8100 2000 8250 2000
 $Comp
-L Connector_Generic:Conn_01x01 J8
-U 1 1 5F5F18B7
-P 9250 1350
-F 0 "J8" H 9330 1392 50  0000 L CNN
-F 1 "Conn_01x01" H 9330 1301 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9250 1350 50  0001 C CNN
-F 3 "~" H 9250 1350 50  0001 C CNN
-	1    9250 1350
-	-1   0    0    1   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x01 J9
 U 1 1 5F6045CC
 P 7100 2400
@@ -1577,8 +1566,6 @@ F 3 "~" H 7100 2400 50  0001 C CNN
 	1    7100 2400
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	9450 1150 9450 1350
 Wire Wire Line
 	7300 2200 7300 2400
 $Comp
@@ -2251,106 +2238,6 @@ SW_PLUS1
 Text GLabel 5200 4050 0    50   Input ~ 0
 SW_CENTER
 $Comp
-L Connector_Generic:Conn_01x15 J15
-U 1 1 5F7AA3DE
-P 5700 5650
-F 0 "J15" H 5780 5692 50  0000 L CNN
-F 1 "Conn_01x15" H 5780 5601 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53047-1510_1x15_P1.25mm_Vertical" H 5700 5650 50  0001 C CNN
-F 3 "~" H 5700 5650 50  0001 C CNN
-	1    5700 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x15 J16
-U 1 1 5F7ADAF9
-P 6350 5650
-F 0 "J16" H 6268 6567 50  0000 C CNN
-F 1 "Conn_01x15" H 6268 6476 50  0000 C CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53047-1510_1x15_P1.25mm_Vertical" H 6350 5650 50  0001 C CNN
-F 3 "~" H 6350 5650 50  0001 C CNN
-	1    6350 5650
-	-1   0    0    -1  
-$EndComp
-Text GLabel 5500 4950 0    50   Input ~ 0
-LED_MOTOR
-Text GLabel 5500 5050 0    50   Input ~ 0
-LED_PWR
-Text GLabel 5500 5150 0    50   Input ~ 0
-SW_CH_1
-Text GLabel 5500 5250 0    50   Input ~ 0
-SW_CH_2
-Text GLabel 5500 5350 0    50   Input ~ 0
-SW_CH_3
-Text GLabel 5500 5450 0    50   Input ~ 0
-SW_CH_4
-Text GLabel 5500 5550 0    50   Input ~ 0
-SW_ID_1
-Text GLabel 5500 5650 0    50   Input ~ 0
-SW_ID_2
-Text GLabel 5500 5750 0    50   Input ~ 0
-SW_ID_3
-Text GLabel 5500 5850 0    50   Input ~ 0
-SW_ID_4
-$Comp
-L power:GNDREF #PWR0141
-U 1 1 5F823DE8
-P 4800 6050
-F 0 "#PWR0141" H 4800 5800 50  0001 C CNN
-F 1 "GNDREF" H 4805 5877 50  0000 C CNN
-F 2 "" H 4800 6050 50  0001 C CNN
-F 3 "" H 4800 6050 50  0001 C CNN
-	1    4800 6050
-	1    0    0    -1  
-$EndComp
-Text GLabel 5500 5950 0    50   Input ~ 0
-SW_CFG_1
-Text GLabel 5500 6150 0    50   Input ~ 0
-SW_CFG_2
-Text GLabel 5500 6250 0    50   Input ~ 0
-SW_CFG_3
-Text GLabel 5500 6350 0    50   Input ~ 0
-SW_CFG_4
-$Comp
-L power:GNDREF #PWR0142
-U 1 1 5F86F99F
-P 7200 5450
-F 0 "#PWR0142" H 7200 5200 50  0001 C CNN
-F 1 "GNDREF" H 7205 5277 50  0000 C CNN
-F 2 "" H 7200 5450 50  0001 C CNN
-F 3 "" H 7200 5450 50  0001 C CNN
-	1    7200 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 6050 5500 6050
-Text GLabel 6550 4950 2    50   Input ~ 0
-SW_CFG_5
-Text GLabel 6550 5050 2    50   Input ~ 0
-SW_CFG_6
-Text GLabel 6550 5150 2    50   Input ~ 0
-SW_CFG_7
-Text GLabel 6550 5250 2    50   Input ~ 0
-SW_CFG_8
-Text GLabel 6550 6350 2    50   Input ~ 0
-LED32
-Text GLabel 6550 6250 2    50   Input ~ 0
-LED31
-Text GLabel 6550 6150 2    50   Input ~ 0
-LED22
-Text GLabel 6550 6050 2    50   Input ~ 0
-LED21
-Text GLabel 6550 5950 2    50   Input ~ 0
-LED12
-Text GLabel 6550 5850 2    50   Input ~ 0
-LED11
-Text GLabel 6550 5550 2    50   Input ~ 0
-SW_CENTER
-Text GLabel 6550 5650 2    50   Input ~ 0
-SW_PLUS1
-Text GLabel 6550 5750 2    50   Input ~ 0
-SW_PLUS2
-$Comp
 L Connector_Generic:Conn_01x02 J17
 U 1 1 5F8E90E9
 P 8350 5500
@@ -2373,30 +2260,6 @@ F 3 "" H 8150 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR0146
-U 1 1 5F9155C7
-P 9300 5600
-F 0 "#PWR0146" H 9300 5350 50  0001 C CNN
-F 1 "GNDREF" H 9305 5427 50  0000 C CNN
-F 2 "" H 9300 5600 50  0001 C CNN
-F 3 "" H 9300 5600 50  0001 C CNN
-	1    9300 5600
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+3V3 #PWR0144
-U 1 1 5F8F6768
-P 9550 5500
-F 0 "#PWR0144" H 9550 5350 50  0001 C CNN
-F 1 "+3V3" H 9565 5673 50  0000 C CNN
-F 2 "" H 9550 5500 50  0001 C CNN
-F 3 "" H 9550 5500 50  0001 C CNN
-	1    9550 5500
-	1    0    0    -1  
-$EndComp
-Text GLabel 9550 5700 0    50   Input ~ 0
-SW_NRST
-$Comp
 L power:+3V3 #PWR0143
 U 1 1 5F8EDF90
 P 8150 5500
@@ -2408,23 +2271,10 @@ F 3 "" H 8150 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J18
-U 1 1 5F8E9B09
-P 9750 5600
-F 0 "J18" H 9830 5642 50  0000 L CNN
-F 1 "Conn_01x03" H 9830 5551 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53047-0310_1x03_P1.25mm_Vertical" H 9750 5600 50  0001 C CNN
-F 3 "~" H 9750 5600 50  0001 C CNN
-	1    9750 5600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9550 5600 9300 5600
-$Comp
-L Connector_Generic:Conn_01x01 J19
+L Connector_Generic:Conn_01x01 NRST1
 U 1 1 5F975D60
 P 8350 6000
-F 0 "J19" H 8430 6042 50  0000 L CNN
+F 0 "NRST1" H 8430 6042 50  0000 L CNN
 F 1 "Conn_01x01" H 8430 5951 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8350 6000 50  0001 C CNN
 F 3 "~" H 8350 6000 50  0001 C CNN
@@ -2434,6 +2284,106 @@ $EndComp
 Text GLabel 8150 6000 0    50   Input ~ 0
 SW_NRST
 Wire Wire Line
-	6550 5450 7200 5450
+	4800 6050 5500 6050
+Text GLabel 5500 6350 0    50   Input ~ 0
+SW_CFG_4
+Text GLabel 5500 6250 0    50   Input ~ 0
+SW_CFG_3
+Text GLabel 5500 6150 0    50   Input ~ 0
+SW_CFG_2
+Text GLabel 5500 5950 0    50   Input ~ 0
+SW_CFG_1
+$Comp
+L power:GNDREF #PWR0141
+U 1 1 5F823DE8
+P 4800 6050
+F 0 "#PWR0141" H 4800 5800 50  0001 C CNN
+F 1 "GNDREF" H 4805 5877 50  0000 C CNN
+F 2 "" H 4800 6050 50  0001 C CNN
+F 3 "" H 4800 6050 50  0001 C CNN
+	1    4800 6050
+	1    0    0    -1  
+$EndComp
+Text GLabel 5500 5850 0    50   Input ~ 0
+SW_ID_4
+Text GLabel 5500 5750 0    50   Input ~ 0
+SW_ID_3
+Text GLabel 5500 5650 0    50   Input ~ 0
+SW_ID_2
+Text GLabel 5500 5550 0    50   Input ~ 0
+SW_ID_1
+Text GLabel 5500 5450 0    50   Input ~ 0
+SW_CH_4
+Text GLabel 5500 5350 0    50   Input ~ 0
+SW_CH_3
+Text GLabel 5500 5250 0    50   Input ~ 0
+SW_CH_2
+Text GLabel 5500 5150 0    50   Input ~ 0
+SW_CH_1
+Text GLabel 5500 5050 0    50   Input ~ 0
+LED_PWR
+Text GLabel 5500 4950 0    50   Input ~ 0
+LED_MOTOR
 NoConn ~ 6550 5350
+Wire Wire Line
+	6550 5450 7200 5450
+Text GLabel 6550 5750 2    50   Input ~ 0
+SW_PLUS2
+Text GLabel 6550 5650 2    50   Input ~ 0
+SW_PLUS1
+Text GLabel 6550 5550 2    50   Input ~ 0
+SW_CENTER
+Text GLabel 6550 5850 2    50   Input ~ 0
+LED11
+Text GLabel 6550 5950 2    50   Input ~ 0
+LED12
+Text GLabel 6550 6050 2    50   Input ~ 0
+LED21
+Text GLabel 6550 6150 2    50   Input ~ 0
+LED22
+Text GLabel 6550 6250 2    50   Input ~ 0
+LED31
+Text GLabel 6550 6350 2    50   Input ~ 0
+LED32
+Text GLabel 6550 5250 2    50   Input ~ 0
+SW_CFG_8
+Text GLabel 6550 5150 2    50   Input ~ 0
+SW_CFG_7
+Text GLabel 6550 5050 2    50   Input ~ 0
+SW_CFG_6
+Text GLabel 6550 4950 2    50   Input ~ 0
+SW_CFG_5
+$Comp
+L power:GNDREF #PWR0142
+U 1 1 5F86F99F
+P 7200 5450
+F 0 "#PWR0142" H 7200 5200 50  0001 C CNN
+F 1 "GNDREF" H 7205 5277 50  0000 C CNN
+F 2 "" H 7200 5450 50  0001 C CNN
+F 3 "" H 7200 5450 50  0001 C CNN
+	1    7200 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x15 CN1
+U 1 1 5F7AA3DE
+P 5700 5650
+F 0 "CN1" H 5780 5692 50  0000 L CNN
+F 1 "Conn_01x15" H 5780 5601 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 5700 5650 50  0001 C CNN
+F 3 "~" H 5700 5650 50  0001 C CNN
+	1    5700 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x15 CN2
+U 1 1 5F7ADAF9
+P 6350 5650
+F 0 "CN2" H 6268 6567 50  0000 C CNN
+F 1 "Conn_01x15" H 6268 6476 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 6350 5650 50  0001 C CNN
+F 3 "~" H 6350 5650 50  0001 C CNN
+	1    6350 5650
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
