@@ -1,8 +1,15 @@
-# Aggregat-02 IOControls
+# aggregat 02 IOControls PCB
+
+User interface peripheral board.
+
+For project info see: https://gitlab.zhdk.ch/aggregat-02/a01-firmware
+
 
 https://gitlab.zhdk.ch/aggregat-02/a01-pcb-iocontrols
 
-Part of https://gitlab.zhdk.ch/aggregat-02
+## License
+
+This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0)
 
 ## Revisions
 
