@@ -13,6 +13,10 @@ This work is licensed under a Creative Commons Attribution 4.0 International Lic
 
 ## Revisions
 
+### v1.2
+
+- Replaced small footprint molex connectors with regular 1.00" pin headers.
+
 ### v1.1
 
 - fixed not connected 3V3 between DIP switches
@@ -26,7 +30,7 @@ Number | Item | Cost per (10/100) Unit(s)  | Cost
 1 | PCB Prototype (https://www.pcbway.com/) | 25.00* (10) | 2.50
 1 | [DIP Switch SPST 8 Through Hole](https://www.digikey.ch/product-detail/en/78B08ST/GH7192-ND/726250) | 1.26 | 1.26
 2 | [DIP Switch SPST 4 Through Hole](https://www.digikey.ch/product-detail/en/78B04T/GH7185-ND/726243) | 1.06 | 2.12
-1 | 1 Pin header | | 
+1 | 1 Pin header | |
 1 | 2 Pin header 1.00" |  |
 2 | 15 Pin header 1.00" |  |
 8 | [SMD Res 270Ohm 1% 1/8W 0805 (2012 Metric)](https://www.digikey.ch/product-detail/en/CR0805-FX-2700ELF/118-CR0805-FX-2700ELFCT-ND/10673809) | 2.67 (100) | < 1.00
