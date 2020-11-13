@@ -26,8 +26,9 @@ Number | Item | Cost per (10/100) Unit(s)  | Cost
 1 | PCB Prototype (https://www.pcbway.com/) | 25.00* (10) | 2.50
 1 | [DIP Switch SPST 8 Through Hole](https://www.digikey.ch/product-detail/en/78B08ST/GH7192-ND/726250) | 1.26 | 1.26
 2 | [DIP Switch SPST 4 Through Hole](https://www.digikey.ch/product-detail/en/78B04T/GH7185-ND/726243) | 1.06 | 2.12
-1 | [3 Position Connector Through Hole](https://www.digikey.ch/product-detail/en/0530470310/WM1732-ND/242854) | 0.23 | 0.23
-2 | [15 Position Connector Through Hole](https://www.digikey.ch/product-detail/en/0530471510/WM17005-ND/259378) | 0.71 | 1.42
+1 | 1 Pin header | | 
+1 | 2 Pin header 1.00" |  |
+2 | 15 Pin header 1.00" |  |
 8 | [SMD Res 270Ohm 1% 1/8W 0805 (2012 Metric)](https://www.digikey.ch/product-detail/en/CR0805-FX-2700ELF/118-CR0805-FX-2700ELFCT-ND/10673809) | 2.67 (100) | < 1.00
 19 | [SMD Res 330Ohm 1% 1/8W 0805 (2012 Metric)](https://www.digikey.ch/product-detail/en/CRG0805F330R/A106061CT-ND/3477707) | 1.82 (100) | < 1.00
 8 | [SMD Res 47kOhm 1% 1/8W 0805 (2012 Metric)](https://www.digikey.ch/product-detail/en/RC0805FR-0747KL/311-47.0KCRCT-ND/730920) |  1.49 (100) | < 1.00
